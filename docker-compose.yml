@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: ppg_backend_api
+    ports:
+      - "8014:8014"
+    command: uvicorn api:app --host 0.0.0.0 --port 8014
+
+  frontend:
+    build: .
+    container_name: ppg_frontend_ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8014/api/v3/glucose  # Docker internal network routing
+    command: streamlit run app.py --server.port 8501
+    depends_on:
+      - api
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: ppg_cloudflare_tunnel
+    command: tunnel --url http://frontend:8501 --no-autoupdate
+    depends_on:
+      - frontend

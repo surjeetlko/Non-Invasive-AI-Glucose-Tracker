@@ -33,15 +33,18 @@ By capturing raw PPG signals, our AI pipeline filters the noise, extracts critic
 The easiest way to run this project is using Docker. You don't need to manually configure Python environments.
 
 **1. Clone the repository:**
-```bash
+
+```
 git clone [https://github.com/your-username/Non-Invasive-Glucose-Tracker.git](https://github.com/your-username/Non-Invasive-Glucose-Tracker.git)
 cd Non-Invasive-Glucose-Tracker
+```
 
 2. Fire up the Containers:
 
 ```
 docker-compose up -d --build
 ```
+
 3. Access the Application:
 
 Live Dashboard: http://localhost:8501

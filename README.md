@@ -1,5 +1,5 @@
 # 🩸 Non-Invasive AI Glucose Tracker
-Build with AI: Code for Communities Hackathon | Real-time PPG Signal Analysis
+**Build with AI: Code for Communities Hackathon | Real-time PPG Signal Analysis**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)
@@ -33,10 +33,9 @@ By capturing raw PPG signals, our AI pipeline filters the noise, extracts critic
 The easiest way to run this project is using Docker. You don't need to manually configure Python environments.
 
 **1. Clone the repository:**
-
 ```
-git clone [https://github.com/your-username/Non-Invasive-Glucose-Tracker.git](https://github.com/your-username/Non-Invasive-Glucose-Tracker.git)
-cd Non-Invasive-Glucose-Tracker
+git clone [https://github.com/surjeetlko/Non-Invasive-AI-Glucose-Tracker.git](https://github.com/surjeetlko/Non-Invasive-AI-Glucose-Tracker.git)
+cd Non-Invasive-AI-Glucose-Tracker
 ```
 
 2. Fire up the Containers:
@@ -47,14 +46,13 @@ docker-compose up -d --build
 
 3. Access the Application:
 
-Live Dashboard: http://localhost:8501
-
-API Swagger Docs: http://localhost:8014/docs
+* Live Dashboard: http://localhost:8501
+* API Swagger Docs: http://localhost:8014/docs
 
 (To stop the application, simply run docker-compose down)
 
-📸 Dashboard Preview
-(Add your dashboard screenshot here!)
+## 📸 Dashboard Preview
+<img width="1920" height="1185" alt="screencapture-sensitivity-stylus-expensive-committees-trycloudflare-2026-07-07-13_52_05" src="https://github.com/user-attachments/assets/8ac32a00-2ec8-4af7-afd4-27873261feb2" />
 
-🤝 Built For Communities
+## 🤝 Built For Communities
 This project aims to democratize health monitoring, making it affordable, painless, and accessible to everyone.

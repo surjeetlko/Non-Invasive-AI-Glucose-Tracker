@@ -9,6 +9,8 @@
 
 An end-to-end, Dockerized, real-time healthcare application that predicts Blood Glucose levels non-invasively using Photoplethysmography (PPG) signals. Built for the **"Build with AI: Code for Communities"** Hackathon.
 
+## 🎥 Watch Live Demo Video: https://drive.google.com/file/d/12x02vdEnKTFEyT0lhI5m3j4QDz8W-c9P/view?usp=sharing
+
 ## 🚀 The Problem
 Currently, millions of diabetic patients rely on traditional glucometers that require painful, daily finger-pricking. This method is uncomfortable and expensive, limiting continuous monitoring for communities with fewer healthcare resources.
 

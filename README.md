@@ -1,4 +1,9 @@
 # 🩸 Non-Invasive AI Glucose Tracker
+> **🚨 URGENT NOTE FOR JUDGES:** 
+> Due to the dynamic nature of free Cloudflare tunnels, the previously submitted URL has expired after a system restart. 
+> **Please use this NEW active Live URL to test the application:** 
+> 👉 **https://sticky-concentrations-factor-includes.trycloudflare.com/**
+> 
 **Build with AI: Code for Communities Hackathon | Real-time PPG Signal Analysis**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
